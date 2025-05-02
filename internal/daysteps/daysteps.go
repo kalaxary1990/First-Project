@@ -51,12 +51,12 @@ func parsePackage(data string) (int, time.Duration, error) {
 }
 
 func DayActionInfo(data string, weight, height float64) string {
-	// TODO: реализовать функцию
+	// TODO: реализовать функци
 
-	stpcount, durcount, err := parsePackage(data)
+	stpcount, durcount, err1 := parsePackage(data)
 
-	if err != nil {
-		log.Println(err)
+	if err1 != nil {
+		log.Println(err1)
 		return ""
 	}
 
